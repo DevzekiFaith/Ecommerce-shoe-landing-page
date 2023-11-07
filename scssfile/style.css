@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.general {
+  background-color: hsl(223, 64%, 98%);
+  color: hsl(0, 0%, 26%);
+  margin: 0 auto;
+  padding: 0 20%;
+  max-width: 1440px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Ecom {
+  background-color: hsl(223, 64%, 98%);
+  height: 10vh;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0 auto;
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+}
+.Ecom nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.Ecom nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.Ecom nav li {
+  padding: 10px;
+  width: 70%;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  color: hsl(223, 64%, 98%);
+}
+.Ecom nav .cart {
+  width: 2px;
+  margin-left: 8rem;
+}
+.Ecom nav #ava {
+  width: 48px;
+}
+.Ecom nav-logo {
+  width: 16%;
+  display: flex;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  padding: 3rem;
+  display: flex;
+  gap: 2rem;
+  margin-top: 15px;
+  margin: 0 auto;
+}
+.hero-content1 {
+  width: 400px;
+  height: 80vh;
+  padding: 14px;
+}
+.hero-content1-image {
+  width: 370px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+.hero-content1-thumbnail1 {
+  width: 80px;
+  margin-right: 12px;
+  border-radius: 10px;
+}
+.hero-content1-thumbnail1:hover {
+  border: 3px solid hsl(26, 100%, 55%);
+  opacity: 0.8;
+  cursor: pointer;
+}
+.hero-content1-thumbnail2 {
+  width: 80px;
+  margin-right: 12px;
+  border-radius: 10px;
+}
+.hero-content1-thumbnail3 {
+  width: 80px;
+  margin-right: 12px;
+  border-radius: 10px;
+}
+.hero-content1-thumbnail4 {
+  width: 80px;
+  border-radius: 10px;
+}
+.hero-content2 {
+  width: 380px;
+  height: 70vh;
+  padding: 1rem;
+}
+.hero-content2-text {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(26, 100%, 55%);
+  font-weight: 700;
+  margin-top: 48px;
+}
+.hero-content2-writeup {
+  font-family: "Kumbh Sans", sans-serif;
+  width: 300px;
+  font-size: 30px;
+  color: hsl(220, 13%, 13%);
+  margin-top: 12px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.hero-content2-paragraph {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 11.5px;
+  margin-bottom: 15px;
+  line-height: 22px;
+}
+.hero-content2-pricetag {
+  font-size: 28px;
+  color: hsl(220, 13%, 13%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  margin-right: 6px;
+}
+.hero-content2-discount {
+  background-color: hsl(0, 0%, 26%);
+  color: hsl(26, 100%, 55%);
+  padding: 0 4px;
+  border-radius: 4px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+}
+.hero-content2-percentage {
+  text-decoration: line-through;
+  color: rgb(171, 171, 171);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 13px;
+}
+.hero-content2-addtocart {
+  margin-top: 18px;
+  width: 100px;
+  padding: 8px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.hero-content2-numbers {
+  margin-left: 6px;
+  color: hsl(26, 100%, 55%);
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: bolder;
+}
+.hero-content2-zero {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: bold;
+}
+.hero-content2-plus {
+  font-size: 18px;
+  font-weight: bold;
+  color: hsl(26, 100%, 55%);
+}
+.hero-content2-button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px 0 12px;
+  background-color: hsl(26, 100%, 55%);
+  border: none;
+  border-radius: 12px;
+  transition: opacity 1.15s;
+}
+.hero-content2-button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+  opacity: 0.7;
+  box-shadow: 2px 4px 4px darkgray;
+}
+.hero-content2-click {
+  width: 15px;
+  margin-right: 12px;
+}
+.hero-content2-add {
+  color: hsl(25, 100%, 94%);
+  font-weight: 700;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 13px;
+  transition: 1.15s;
+}
+.hero-content2-add:hover {
+  color: hsl(26, 100%, 55%);
+}
+
+@media (max-width: 426px) {
+  .general .Ecom {
+    width: 100%;
+    margin: 0;
+    height: 24px;
+  }
+  .general li {
+    display: none;
+  }
+  .hero {
+    width: 100%;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    gap: 0;
+  }
+  .hero-content1 {
+    padding: 0;
+  }
+  .hero-content1-image {
+    width: 470px;
+    padding: 0;
+    border-radius: 0;
+    height: 60vh;
+  }
+  .hero-content1-thumbnail1 {
+    display: none;
+  }
+  .hero-content1-thumbnail2 {
+    display: none;
+  }
+  .hero-content1-thumbnail3 {
+    display: none;
+  }
+  .hero-content1-thumbnail4 {
+    display: none;
+  }
+  .hero-content2 {
+    height: 40vh;
+    margin-top: 0;
+  }
+  .hero-content2-text {
+    margin-top: -6px;
+    font-size: 12px;
+  }
+  .hero-content2-paragraph {
+    font-size: 15px;
+  }
+  .hero-content2-addtocart {
+    width: 100%;
+  }
+}
